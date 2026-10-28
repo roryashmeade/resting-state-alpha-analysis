@@ -29,7 +29,7 @@ ylabel('Mean power');
 title('Resting State 1 Power Spectrum');
 
 figure(80)
-plot(pow.freq, meanPowerSpectrum_RS2, 'LineWidth', 1.5);
+plot(pow.freq, power_RS2, 'LineWidth', 1.5);
 xlabel('Frequency (Hz)');
 ylabel('Mean power');
 title('Resting State 2 Power Spectrum');
